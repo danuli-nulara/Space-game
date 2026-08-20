@@ -520,8 +520,6 @@ def apply_powerup(ptype):
     elif ptype == "health":
         player.health = min(player.max_health + 2, player.health + 1)
 
-
-
 #input
 def move_left():
     if state == "playing":
